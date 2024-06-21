@@ -1,0 +1,290 @@
+/********** common setting **********/
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 100% !important;
+    width: 100px !important; /* Set the width as needed */
+    height: auto !important; /* Maintain aspect ratio */
+}
+
+.button-container {
+    position: relative;
+    height: 300px; /* Adjust height as needed to see the effect */
+    background-color: #6c6969; /* Just for visibility */
+    padding-bottom: 50px; /* Add padding to create space underneath the button */
+}
+
+.register-btn:hover {
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out !important;
+    transform: scale(1.1) !important;
+}
+
+/* Base styles for the list items */
+.list-inline-item a {
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out !important;
+}
+
+/* Hover effect: scale up and turn black */
+.list-inline-item a:hover {
+    color: #00dee6 !important;
+    text-decoration: none;
+}
+  
+.jumbotron {
+    margin-bottom: 0px !important;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding: 40px; /* Taller height for larger screens */
+    }
+}
+
+
+.jumbotron2 {
+    margin-bottom: 0px !important;
+    height: 1000px; /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .jumbotron2 {
+        height: 300px; /* Taller height for larger screens */
+    }
+}
+
+.jumbotron3 {
+    margin-bottom: 0px !important;
+    height: 1000px; /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .jumbotron3 {
+        height: 110px; /* Taller height for larger screens */
+    }
+}
+
+.jumbotron4 {
+    margin-bottom: 0px !important;
+    height: 1000px; /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .jumbotron4 {
+        height: 400px; /* Taller height for larger screens */
+    }
+}
+
+.atlas-cta {
+    display: inline-block;
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    text-decoration: none; /* Ensure the text is not underlined */
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #00dee6;
+    color: #192440;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #009da2;
+    transform: scale(1.1);
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    background: #6c6969;
+    color: #00dee6;
+}
+
+.cta-purple {
+    background: #00dee6;
+    color: #192440;
+}
+
+.cta-purple:hover {
+    color: #ffffff;
+    background: #009da2;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+iframe {
+    width: 100%;
+    height: 800px; /* Set a fixed height or adjust as needed */
+    border: none; /* Remove iframe border */
+}
+
+.col-md-4 img {
+    width: 100%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 250px; /* Optionally limit the maximum width */
+}
+
+@media (max-width: 768px) {
+    iframe {
+        height: 1200px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    iframe {
+        height: 1400px; /* Adjust for mobile devices */
+    }
+}
+#banner {
+    background-size: cover;
+}
+
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: linear-gradient(168deg, #ffffff 55%, #60f1f6 0);
+}
+
+#feature-last {
+    background: #60f1f6;
+}
+
+#feature-again {
+    background: linear-gradient(168deg, #60f1f6 55%, #ffffff 0);
+}
+
+/********** price table **********/
+#price-table {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+#price-table__premium {
+    background: #192440;
+    color: #ffffff;
+}
+
+#price-table ul li {
+    padding: 5px 0;
+}
+
+/********** contact **********/
+#contact {
+    background-size: cover;
+}
+
+#contact ul li {
+    padding: 0px 0;
+    color: #000000;
+}
+
+#contact form {
+    color: #000000;
+}
+
+#contact form input,
+#contact form textarea {
+    background: transparent;
+    border: 1px solid #00dee6;
+    color: #000000;
+}
+
+/********** copyright **********/
+#copyright {
+    background: #6c6969;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #009da2;
+}
+
+#copyright #social-media a:hover i {
+    color: #ffffff;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
